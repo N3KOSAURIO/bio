@@ -3,7 +3,7 @@
 import re, pathlib, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent
-SITE_URL = "https://n3kosaurio.github.io/bio/"
+SITE_URL = "https://sneyder.biolnk.si/"
 OG_IMAGE = SITE_URL + "og.png"
 
 def icon(name: str) -> str:
