@@ -43,4 +43,14 @@ No editar `index.html` a mano: se sobreescribe.
 ## Publicación
 
 GitHub Pages, rama `main`, raíz del repo.
-`https://n3kosaurio.github.io/bio/` — pendiente mover a dominio propio.
+
+**Dominio vivo: <https://sneyder.biolnk.si>** (desde 2026-11-16). El archivo `CNAME` de la
+raíz fija el dominio (`sneyder.biolnk.si`); GitHub emite y renueva el certificado Let's Encrypt
+y fuerza HTTPS (`https_enforced`). El `SITE_URL` de `build.py` debe coincidir con ese dominio —
+de ahí salen `canonical`, `og:url` y `og:image`.
+
+`https://n3kosaurio.github.io/bio/` ahora responde 301 hacia el dominio propio.
+
+DNS: zona en Hostinger (`lunar`/`solar.dns-parking.com`), registro `sneyder` CNAME →
+`n3kosaurio.github.io`. El apex `biolnk.si` queda **libre** (reservado para el producto de
+bio-links); no se toca ni el apex ni los MX de Hostinger.
