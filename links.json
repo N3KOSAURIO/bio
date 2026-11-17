@@ -1,0 +1,95 @@
+{
+  "_nota": "Fuente de verdad de los destinos del bio link. build.py los inyecta en el template. 'pendiente' = sin pagina propia todavia: el enlace cae a WhatsApp con mensaje contextual.",
+  "cards": [
+    {
+      "id": "card-ia",
+      "titulo": "Descubre el mundo de la IA",
+      "kicker": "Guía",
+      "texto": "Qué es, qué puede hacer por tu negocio y por dónde empezar sin humo.",
+      "url": "https://wa.me/573228084525?text=Hola%20Sneyder%2C%20quiero%20entender%20c%C3%B3mo%20usar%20IA%20en%20mi%20negocio.",
+      "cta": "Empezar",
+      "estado": "whatsapp"
+    },
+    {
+      "id": "card-proyectos",
+      "titulo": "Nuestros Proyectos",
+      "kicker": "Portafolio",
+      "texto": "Sistemas, tiendas y automatizaciones que ya están funcionando.",
+      "url": "https://github.com/N3KOSAURIO",
+      "cta": "Ver repos",
+      "estado": "externo"
+    },
+    {
+      "id": "card-automatizacion",
+      "titulo": "Automatiza tu negocio",
+      "kicker": "Servicio",
+      "texto": "Menos planillas, menos WhatsApp a mano. Flujos que trabajan solos.",
+      "url": "https://wa.me/573228084525?text=Hola%20Sneyder%2C%20quiero%20automatizar%20procesos%20de%20mi%20negocio.",
+      "cta": "Hablemos",
+      "estado": "whatsapp"
+    },
+    {
+      "id": "card-conocimiento",
+      "titulo": "Conocimiento sin límites",
+      "kicker": "Método",
+      "texto": "Cómo aprendo y cómo enseño: sistemas, notas y criterio propio.",
+      "url": "https://wa.me/573228084525?text=Hola%20Sneyder%2C%20me%20interesa%20tu%20contenido%20sobre%20aprendizaje%20y%20sistemas.",
+      "cta": "Saber más",
+      "estado": "whatsapp"
+    },
+    {
+      "id": "card-fitpro",
+      "titulo": "FitPro SaaS",
+      "kicker": "Producto",
+      "texto": "Software para entrenadores: rutinas, clientes y seguimiento en un solo lugar.",
+      "url": "https://wa.me/573228084525?text=Hola%20Sneyder%2C%20quiero%20saber%20del%20SaaS%20FitPro.",
+      "cta": "Pedir demo",
+      "estado": "whatsapp"
+    },
+    {
+      "id": "card-agency",
+      "titulo": "Ney Agency",
+      "kicker": "Agencia",
+      "texto": "IA, software y automatización para negocios que ya no aguantan otra hoja de cálculo.",
+      "url": "https://kumo.mork.click",
+      "cta": "kumo.mork.click",
+      "estado": "externo"
+    }
+  ],
+  "accesos": [
+    {
+      "id": "icono-blog",
+      "titulo": "Blog",
+      "sub": "notas y ensayos",
+      "url": "https://wa.me/573228084525?text=Hola%20Sneyder%2C%20quiero%20el%20blog%20nuevo.",
+      "estado": "whatsapp"
+    },
+    {
+      "id": "icono-cursos",
+      "titulo": "Cursos",
+      "sub": "aprender haciendo",
+      "url": "https://wa.me/573228084525?text=Hola%20Sneyder%2C%20info%20de%20los%20cursos.",
+      "estado": "whatsapp"
+    },
+    {
+      "id": "icono-recursos",
+      "titulo": "Recursos",
+      "sub": "plantillas y código",
+      "url": "https://github.com/N3KOSAURIO",
+      "estado": "externo"
+    },
+    {
+      "id": "icono-contacto",
+      "titulo": "Contacto",
+      "sub": "respuesta directa",
+      "url": "https://wa.me/573228084525?text=Hola%20Sneyder%2C%20te%20escribo%20desde%20tu%20bio%20link.",
+      "estado": "whatsapp"
+    }
+  ],
+  "redes": [
+    { "id": "instagram", "nombre": "Instagram", "handle": "@sneyder_skr", "url": "https://www.instagram.com/sneyder_skr/" },
+    { "id": "tiktok", "nombre": "TikTok", "handle": "@neycreator404", "url": "https://www.tiktok.com/@neycreator404" },
+    { "id": "facebook", "nombre": "Facebook", "handle": "sneyder.arroyave.5", "url": "https://www.facebook.com/sneyder.arroyave.5" }
+  ],
+  "whatsapp": "https://wa.me/573228084525?text=Hola%20Sneyder%2C%20te%20escribo%20desde%20tu%20bio%20link."
+}

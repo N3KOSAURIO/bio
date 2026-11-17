@@ -1,2 +1,5 @@
 .DS_Store
 *.tmp
+
+# fuentes de generacion (PNG grandes, solo local)
+assets/gen/

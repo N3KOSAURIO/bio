@@ -1,34 +1,50 @@
 <!DOCTYPE html>
 <html lang="es"><head><meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   html,body{margin:0;width:1200px;height:630px;overflow:hidden}
-  body{background:#08080a;color:#f4f1ea;font-family:"Bricolage Grotesque",system-ui,sans-serif;
-       display:grid;grid-template-columns:1fr 430px;position:relative}
-  body::after{content:"";position:absolute;inset:0;pointer-events:none;
-    background:radial-gradient(50% 60% at 6% -10%,rgba(255,184,41,.14),transparent 62%)}
-  .l{padding:64px 56px;display:flex;flex-direction:column;justify-content:space-between;position:relative;z-index:1}
-  .mono{font-family:"JetBrains Mono",monospace;font-size:15px;letter-spacing:.20em;text-transform:uppercase;color:#8c8c93}
-  h1{margin:0;font-size:104px;line-height:.84;letter-spacing:-.045em;font-weight:500}
-  h1 em{font-family:"Instrument Serif",Georgia,serif;font-style:italic;font-weight:400;font-size:1.04em;
-        display:block;margin-top:6px}
-  .row{display:flex;gap:26px;align-items:center}
-  .dot{width:11px;height:11px;border-radius:50%;background:#ffb829;box-shadow:0 0 0 6px rgba(255,184,41,.14)}
-  .r{position:relative;overflow:hidden}
-  .r img{width:100%;height:100%;object-fit:cover;object-position:50% 14%;filter:brightness(.9) saturate(.92)}
-  .r::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#08080a 0%,rgba(8,8,10,.55) 22%,transparent 60%)}
-  .tag{position:absolute;left:56px;bottom:64px;display:flex;gap:10px;align-items:center;z-index:2}
+  body{background:#03040F;color:#EEF3FF;font-family:"Space Grotesk",system-ui,sans-serif;
+       display:flex;align-items:center;position:relative}
+  .bg{position:absolute;inset:0;background:url('../img/fondo-hero.webp') center/cover no-repeat;opacity:.88}
+  .veil{position:absolute;inset:0;background:
+    radial-gradient(120% 90% at 80% 46%,rgba(0,217,255,.14),transparent 62%),
+    linear-gradient(96deg,rgba(3,4,15,.97) 32%,rgba(3,4,15,.82) 60%,rgba(3,4,15,.52) 100%)}
+  .grid{position:absolute;inset:0;opacity:.15;
+    background-image:linear-gradient(rgba(126,168,255,.35) 1px,transparent 1px),
+                     linear-gradient(90deg,rgba(126,168,255,.35) 1px,transparent 1px);
+    background-size:64px 64px;
+    -webkit-mask-image:radial-gradient(90% 80% at 50% 50%,#000 20%,transparent 78%)}
+  .in{position:relative;display:flex;align-items:center;gap:54px;padding:0 78px;width:100%}
+  .av{width:206px;height:206px;border-radius:50%;overflow:hidden;flex:0 0 auto;
+    border:2px solid rgba(0,217,255,.55);
+    box-shadow:0 0 0 8px rgba(0,217,255,.07),0 24px 70px rgba(0,0,0,.6),0 0 60px rgba(0,217,255,.26)}
+  .av img{width:100%;height:100%;object-fit:cover;display:block}
+  .txt{min-width:0}
+  .eyebrow{font-family:"JetBrains Mono",monospace;font-size:15px;letter-spacing:.26em;
+    text-transform:uppercase;color:#B9C7E9;margin:0 0 18px}
+  h1{margin:0;font-size:84px;line-height:.94;letter-spacing:-.045em;font-weight:600}
+  h1 .w1{color:#F3F7FF}
+  h1 .w2{color:#35DFFF}
+  .role{margin:20px 0 0;font-size:22px;color:#C6D3EE;font-weight:300;max-width:21ch;line-height:1.36}
+  .role b{color:#fff;font-weight:500}
+  .bar{margin-top:32px;display:flex;align-items:center;gap:14px}
+  .url{font-family:"JetBrains Mono",monospace;font-size:16px;letter-spacing:.13em;color:#BFEFFF;
+    border:1px solid rgba(0,217,255,.38);background:rgba(0,217,255,.08);padding:11px 18px;border-radius:999px}
+  .tag{font-family:"JetBrains Mono",monospace;font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:#8799C2}
 </style></head>
 <body>
-  <div class="l">
-    <span class="mono">Medellín · Colombia</span>
-    <div>
-      <h1>Sneyder<em>Arroyave</em></h1>
-      <div class="row" style="margin-top:34px"><span class="dot"></span>
-        <span class="mono" style="color:#d7d4cc">MØRK Studios · Ney Agency</span></div>
+  <div class="bg"></div><div class="veil"></div><div class="grid"></div>
+  <div class="in">
+    <div class="av"><img src="../img/avatar-panda.webp" alt=""></div>
+    <div class="txt">
+      <p class="eyebrow">Fundador · Constructor</p>
+      <h1><span class="w1">Sneyder</span> <span class="w2">Arroyave</span></h1>
+      <p class="role">IA, software y automatización. <b>Ney Agency</b> · <b>FitPro</b>.</p>
+      <div class="bar">
+        <span class="url">sneyder.biolnk.si</span>
+        <span class="tag">Conecta · Aprende · Crea</span>
+      </div>
     </div>
-    <span class="mono">Streetwear · Contenido · Sistemas</span>
   </div>
-  <div class="r"><img src="../assets/mork-card.webp" alt=""></div>
 </body></html>
