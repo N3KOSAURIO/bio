@@ -129,8 +129,8 @@ a { color: inherit; }
 .footer__motto { margin-bottom:17px; color:#b6c6e6; font:800 8px Manrope,sans-serif; letter-spacing:.2em; }
 .footer__motto i { color:#779fe9; font-style:normal; padding:0 4px; }
 .footer>small { color:#5e6980; font-size:8px; }
-.reveal { opacity:0; transform:translateY(18px); transition:opacity .75s var(--ease),transform .75s var(--ease); }
-.reveal.is-visible { opacity:1; transform:translateY(0); }
+html.js .reveal { opacity:0; transform:translateY(18px); transition:opacity .75s var(--ease),transform .75s var(--ease); }
+html.js .reveal.is-visible { opacity:1; transform:translateY(0); }
 @keyframes spin { to { transform:rotate(360deg); } }
 @keyframes float { 0%,100% { transform:translateY(0) rotate(0); } 50% { transform:translateY(-8px) rotate(3deg); } }
 @keyframes halo { 0%,100% { transform:scale(1); opacity:.8; } 50% { transform:scale(1.035); opacity:1; } }
@@ -175,5 +175,5 @@ a { color: inherit; }
 }
 @media (prefers-reduced-motion:reduce) {
   *,*::before,*::after { scroll-behavior:auto !important; animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; }
-  .reveal { opacity:1; transform:none; }
+  html.js .reveal { opacity:1; transform:none; }
 }
